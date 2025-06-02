@@ -1,0 +1,77 @@
+body {
+    margin:0; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcebf3;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.card {
+    background-color: whitesmoke;
+    padding: 1rem; 
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+}
+
+.profile-pic {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover ;
+    border-radius: 25% ;
+    border: 2px solid pink;
+    margin-bottom: 2rem; 
+}
+
+.h1 {
+    font-size: 24px;
+    color: #3333; 
+    margin-bottom: 1rem;
+}
+
+.h3 {
+    font-size:16px ;
+    color: #3333; 
+    margin-bottom: 0.7rem;
+}
+
+.bio {
+    font-size: 16px;
+    color: #6666; 
+    margin-bottom: 1rem;
+}
+
+.button {
+    /* properties within a standard button */
+    background-color: pink ;
+    color: #fcebf3 ;
+    padding: 0.75rem /* top to bottom padding */ 1.5rem /* left to right padding */; 
+    /* space inside element; giving contents breathing room */
+    border: none; 
+    border-radius: 8px;
+    font-weight: bold ;
+    cursor: pointer ; 
+    transition: background 03.s ease ;
+    margin-bottom: 2rem;
+}
+
+.button:hover {
+    background-color: #3333;
+    color:whitesmoke; 
+}
+
+ /* FOOTER STYLE SECTION; FOOTERS CAN ABSOLUTELY GO INSIDE CARDS */
+.socials a {
+    text-decoration: none;
+    color: #ff8cba; 
+    margin: 0 15px; 
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.socials a:hover{
+    color: #3333
+}
